@@ -1,0 +1,17 @@
+{
+  "extends": "@tsconfig/recommended/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "commonjs",
+    "allowJs": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": ["node_modules/*"]
+    },
+    "sourceMap": true,
+    "target": "es2021",
+    "typeRoots": ["./node_modules/@types", "./test/typings"]
+  },
+  "files": ["global.d.ts"],
+  "include": ["./src/**/*"]
+}
