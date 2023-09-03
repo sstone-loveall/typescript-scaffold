@@ -24,7 +24,7 @@ npm run container-run
 ```
 2. Hit the service endpoint.
 ```shell
-curl -i localhost:8080/hello
+curl -i localhost:3000/hello
 ```
 3. Shut down the container.
 ```shell
